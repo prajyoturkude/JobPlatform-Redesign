@@ -1,0 +1,121 @@
+/* General Styles */
+.custom-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .elementor-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  /* Column Styling */
+  .elementor-column {
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .elementor-widget-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .services-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .services-icon img {
+    max-width: 80px;
+    border-radius: 50%;
+  }
+  
+  .services-title h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .services-txt {
+    color: #555;
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  .services-btn-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .services-btn {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .services-btn .btn_text {
+    margin-right: 5px;
+  }
+  
+  .services-btn i {
+    font-size: 1em;
+    color: #007bff;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .elementor-column {
+      flex: 1 1 100%;
+    }
+  
+    .elementor-widget-container {
+      max-width: 100%;
+    }
+  
+    .services-title h3 {
+      font-size: 1.2em;
+    }
+  
+    .services-txt {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .services-icon img {
+      max-width: 60px;
+    }
+  
+    .services-title h3 {
+      font-size: 1em;
+    }
+  
+    .services-txt {
+      font-size: 0.8em;
+    }
+  
+    .services-btn .btn_text {
+      font-size: 0.9em;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+.clientSlider {
+  overflow: hidden;
+  position: relative;
+}
+
+.clientSlide-track {
+  display: flex;
+  animation: scroll 10s linear infinite;
+  width: calc(200%); /* Ensures that both sets fit within the container */
+}
+
+.clientSlide-image {
+  padding: 0 20px;
+}
+
+.clientSlide-image img {
+  max-width: 150px; /* Adjust size as needed */
+  height: auto;
+  display: block;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Scrolls halfway (one set of images) */
+  }
+}
